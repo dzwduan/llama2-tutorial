@@ -35,3 +35,5 @@ See the README in the [Project 5: Flash Attention](05-fast-attention/README.md) 
 ## REF
 
 [INFO7375 Class]( https://github.com/dexkum-2myzZy-jipzid/INFO7375-HPC-AI.git)
+[flash-attention-wheels](https://github.com/tridao/flash-attention-wheels)
+[zhihu tutorial](https://zhuanlan.zhihu.com/p/1922976548610372130)
