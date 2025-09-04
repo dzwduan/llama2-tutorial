@@ -1,0 +1,78 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# vscode
+.vscode/
+
+#IDEA
+.idea/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# 
+stories15M.bin
+
+# modal-examples
+modal-examples/
+
+# Python
+__pycache__/
+
+# print file
+**/output.txt
+
+# python
+venv/

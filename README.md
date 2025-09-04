@@ -1,8 +1,6 @@
 # llama2.c tutorial 
 
 
-
-
 ## Project: Background Knowledge
 
 Re-implements neural network examples from Victor Zhou's blog using C. Includes single neuron and simple neural network implementations with comprehensive test cases.
@@ -32,12 +30,6 @@ See the README in the [Project 4: CUDA Practice](04-cuda-practice/README.md) fol
 Implements three CUDA kernels for LLaMA2 inference: a softmax kernel, a FlashAttention V1 kernel, and FlashAttention + GEMV. Performance is tested against vLLM on A100 GPU, achieving 1.85× speedup with FlashAttention and 8.51× speedup with FlashAttention + GEMV over baseline matrix multiplication.
 
 See the README in the [Project 5: Flash Attention](05-fast-attention/README.md) folder.
-
-## Project 6: Multi-GPU Matrix Multiplication
-
-Implements distributed matrix multiplication using SUMMA algorithm across multiple GPUs with MPI and CUDA. Handles matrices too large for a single GPU by tiling both A and B matrices. Achieves near-perfect scaling with 99% efficiency on 4 GPUs and 82.7% efficiency on 8 GPUs (A100-40GB).
-
-See the README in the [Project 6: Multi-GPU Matrix Multiplication](06-multi-gpu/README.md) folder.
 
 
 ## REF
